@@ -13,7 +13,13 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    "primevue/resources/themes/aura-light-green/theme.css",
+    "primevue/resources/themes/bootstrap4-dark-blue/theme.css",
     "primeicons/primeicons.css",
+  ],
+  components: [
+    {
+      path: "~/components",
+      extensions: [".vue"],
+    },
   ],
 });
